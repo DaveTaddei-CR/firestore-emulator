@@ -1,0 +1,17 @@
+{
+    "emulators": {
+        "firestore": {
+          "port": 8800,
+          "host": "0.0.0.0"
+        },
+        "ui": {
+          "enabled": true,      // Default is `true`
+          "port": 4000,
+          "host": "0.0.0.0"          // If unspecified, see CLI log for selected port
+        },
+        "auth": {
+          "port": 9099,
+          "host": "0.0.0.0"
+        }
+    }
+}

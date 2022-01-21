@@ -1,0 +1,12 @@
+version: "3"
+services:
+  db:
+    image: firestore
+    build:
+      dockerfile: Dockerfile
+    ports:
+      - 9099:9099
+      - 4000:4000
+      - 8800:8800
+    volumes:
+      - .:/app
